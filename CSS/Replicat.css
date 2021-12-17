@@ -1,0 +1,360 @@
+/*used to use a installed/downloaded font @font-face*/
+@font-face{
+	font-family: "Blade Runner Movie Font";
+	src: url(C:/Users/Marsea/AppData/Local/Microsoft/Windows/Fonts/BLADRMF.TTF);
+
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: #36516B;
+	background-image: url("C:/users/marsea/desktop/replicat/img/background1.png"), 
+	linear-gradient(to bottom right, rgba(122, 72, 58, .25) 1%, rgba(190, 157, 149, .55) 20%, 
+		rgba(54, 81, 107, 1) 60%, rgba(179, 221, 216, .65) 100%);
+	/*background-image: url("C:/users/marsea/desktop/replicat/img/background1.png");*/
+	background-repeat: no-repeat, repeat;
+	background-size: 55% 80%, cover;
+	background-position: 90% 125%;
+	/*background-position: 90% 125%;
+	background-size: 55% 80%;
+	/*background-blend-mode: darken;*/
+
+}
+
+header{
+	/*border: solid black 5px;*/
+	
+}
+
+h1{
+	margin: 1vh 0 0 1vw;
+	font-family: "Blade Runner Movie Font", arial, sans-serif;
+	display: inline-block;
+	letter-spacing: 1px;
+	text-shadow: -1px 0 #B3DDD8, 0 1px #B3DDD8, 1px 0 #B3DDD8, 0 -1px #B3DDD8;
+
+
+}
+
+/*cat logo*/
+#logo{
+	float: right;
+	width: 115px;
+	height: 115px;
+	margin: 1vh 1vw 0 0;
+	
+}
+
+#logo:hover{
+	border-radius: 50%;
+	background-color: yellowgreen;
+
+}
+
+main{
+	font-family: arial, Helvetica, sans-serif;
+	display: block;
+	/*border: solid black 5px;*/
+	width: 35vw;
+	margin: 10vh 0 5vh 2vw;
+	text-align: center;
+	letter-spacing: -1px;
+	line-height: 1.5;
+	word-spacing: 1px;
+	
+	/*text-shadow: 0px 0px 5px blue, 0 0 6px green;*/
+	
+}
+
+h4{
+	font-family: "Blade Runner Movie Font", arial, sans-serif ;
+	text-shadow: -1px 0 #B3DDD8, 0 1px #B3DDD8, 1px 0 #B3DDD8, 0 -1px #B3DDD8;
+}
+
+figure{
+	border: solid rgba(54, 81, 107, 1) 1px ;
+	border-radius: 10px;
+	display: inline-block;
+	width: 12vw;
+	height: 41vh;
+	margin: 0 0 0 15vw;
+	background-color: rgba(54, 81, 107, .60);
+	box-shadow: 0 0 20px 10px #B3DDD8;
+	
+}
+
+figure:hover{
+	background-color: rgba(54, 81, 107, .85);
+	box-shadow: 1px 0 lightblue, 0 -1px lightblue, -1px 0 lightblue, 0 1px lightblue, 0 0 20px 10px #B3DDD8;
+
+}
+
+/*selling point icons*/
+.selling_points{
+	width: 8vw;
+	height: 15vh;
+	/*margin: 0 50%;*/
+	margin: 5% 0 5% 20%;
+
+
+}
+
+/*selling point caption/explanation*/
+.selling_cap{
+	/*border: solid black 1px;*/
+	display: inline-table;
+	font-family: arial, Helvetica, sans-serif;
+	letter-spacing: .5px;
+	font-weight: bold;
+	font-variant: small-caps;
+	width: 8vw;
+	margin: 0 0 0 14%;
+	text-align: center;
+	font-size: 1vw;
+
+}
+
+fieldset{
+	display: none;
+	padding-top: 10px;
+	width: 50vw;
+	height: 80vh;
+	/*margin: 0 auto;*/
+	border-radius: 5px;
+	background-color: rgba(190, 157, 149, 1);
+	position: absolute;
+	left: 25vw;
+	/*right: 25vw;*/
+	top: 15vh;
+	/*bottom: 25vh;*/
+	box-shadow: 0px 0px 50px 10px black;
+}
+
+/*"x" exit for the presale*/
+button{
+	border: solid black 1px;
+	background: grey;
+	color: white;
+	display: none;
+	position: fixed;
+	top: 15.5vh;
+	right: 25.2vw;
+
+}
+
+/*text requirements ex: "name"*/
+.form_text{
+	font-family: arial, Helvetica, sans-serif;
+	margin: 0 0 0 37%;	
+	font-weight: bold;
+	text-shadow: 1px 0 #B3DDD8, 0 -1px #B3DDD8, -1px 0 #B3DDD8, 0 1px #B3DDD8;
+	
+}
+
+/*empty, fill in the blank*/
+.form_empty{
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0 0 10px black;
+
+}
+
+/*container for the cat products*/
+.fig_model{
+		width: 10vw;
+		height: 40vh;
+		margin:  3vh 2.5vw 2vh;
+		display: inline-table;
+		/*overflow: hidden; stops the text after certain length*/
+}
+
+/*cat products*/
+.cat_model{
+	width: 8vw;
+	height: 15vh;
+	margin: 5% 10%;
+
+}
+
+/*cat (name) products*/
+.cat-name{
+	font-family: "Blade Runner Movie Font", arial, sans-serif ;
+	margin: 0 15%;
+	letter-spacing: -1px;
+	font-size: 1.2vw;
+	text-shadow: -1px 0 #B3DDD8, 0 1px #B3DDD8, 1px 0 #B3DDD8, 0 -1px #B3DDD8;
+}
+
+/*radio dials*/
+.dot{
+	margin: 0 7.1vw 5vh;
+
+}
+
+/*the description for the model and under the name, may not have been the best choice, 
+<p> might be responsible for the boxes messing up and having to use display: inline-table in .fig_model*/
+p{
+	/*when i tried the "font:" shorthand .. it would not center (text:  align)??*/
+	font-family: arial, Helvetica, sans-serif; 
+	text-align: center;
+	letter-spacing: .5px;
+	font-weight: bold;
+	font-variant: small-caps;
+
+}
+
+#sub-btn{
+	display: block;
+	margin: 0 auto;
+	font-family: "Blade Runner Movie Font", arial, sans-serif ;
+	font-weight: bold;
+	text-shadow: -1px 0 #B3DDD8, 0 1px #B3DDD8, 1px 0 #B3DDD8, 0 -1px #B3DDD8;
+}
+
+@media screen and (max-width: 428px) and (max-height: 926px){
+
+	body{
+		/*background: none;*/
+	}
+
+	header{
+		border: solid black 5px;
+		width: 99vw;
+	}
+
+	/*changed to display: inline so that the logo could
+	be next to it and actually part of the header inside 
+	of it just not floating over it*/
+	h1{
+		display: inline;
+	}
+
+	#logo{
+		width: 65px;
+		height: 65px;
+		position: relative;
+		right: 1vw;
+		top: -7vh;
+	}
+
+	main{
+		width: 100vw;
+		margin: 6vh auto;
+	}
+
+	/*h4{
+		margin: -1vh auto 0;
+	}*/
+
+	figure{
+		display: block;
+		width: 98vw;
+		margin: 0 auto 2vh;
+	}
+
+	/*selling point icons*/
+	.selling_points{
+		/*border: solid black 1px;*/
+		width: 120px;
+		height: 120px;
+		position: relative;
+		top: 2vh;
+		left: -15vw; 
+		/*margin: 0 50%;*/
+		/*margin: 5% 0 5% 20%*/
+	}
+
+	/*selling point caption/explanation*/
+	.selling_cap{
+		/*border: solid black 1px;*/
+		width: 50%;
+		position: relative;
+		top: -22vh;
+		right: -32vw;
+		font-size: 1.2rem;
+		/*margin: 0 0 0 14%;*/
+		/*float: right;*/
+	}
+
+	fieldset{
+	display: none;
+	width: 95vw;
+	height: 70vh;
+	position: fixed;
+	left: 3.5vw;
+	top: 18vh;
+	/*right: 25vw;*/
+	/*bottom: 25vh;*/
+	/*padding-top: 20px;*/
+	/*margin: 0 auto;*/
+	}
+
+	/*text requirements ex: "name"*/
+	.form_text{
+		margin: 0 0 0 10vw;	
+	}
+
+	/*empty, fill in the blank*/
+	.form_empty{
+		display: inline-block;
+		margin: 0 0 .5vh 1.5vw;
+	}
+
+	#ename{
+		margin: 0 0 .5vh 10.5vw;
+	}
+
+	#fname{
+		margin: 0 0 .5vh 1.2vw;
+	}
+
+	.fig_model{
+		margin: 2vh 1.5vw 0 0;
+		width: 26vw;
+		height: 37vh;
+
+	}
+
+	/*cat products*/
+	.cat_model{
+		width: 65px;
+		height: 65px;
+		margin: 1vh auto;
+	}
+
+	p{
+		font-size: .9rem;
+	}
+
+	/*cat (name) products*/
+	.cat-name{
+		margin: 0 1.5vw;
+		font-size: 3.5vw;
+	}
+
+	/*radio dials*/
+	.dot{
+		margin: 2vh 12.5vw;
+	}
+
+	#sub-btn{
+		margin: 2vh auto;
+	}
+
+	/*"x" exit for the presale*/
+	button{
+		position: fixed;
+		top: 19vh;
+		right: 4.5vw;
+}
+
+
+
+
+
+
+}
