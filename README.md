@@ -7,4 +7,5 @@
  Inside this form you will input your personal information and click on the item of interest. 
  At the center of the page, spaced apart from one another are the company's "hooks" to persuade you into purchasing the item. 
  
-Hopefully I can make some type of video presentation of this landing page soon. 
+Video demonstration link
+https://youtu.be/0cuEVOmvwCw
