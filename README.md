@@ -1,5 +1,8 @@
 # RepliCat
 
+## Site
+ https://marcelino-g.github.io/RepliCat/
+
 ## What
  **RepliCat** is a landing page for the fictional company called ***The Siber Corporation***. The purpose of it is to inform the viewer of the company's products and to give the viewer a chance to join their mailing list. 
 
@@ -16,7 +19,7 @@
  ![screenshot of completed project](./Rough%20draft%20and%20final%20pics/Final_Product1.png)
 
 
-## Video Demonstration
+## Video Presentation
  https://youtu.be/0cuEVOmvwCw
 
 ## Sources
