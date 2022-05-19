@@ -1,11 +1,23 @@
 # RepliCat
- My first landing page, inspired by Blade Runner (1982). 
- It is for a fictional company called "The Siber Corporation" that sells cat like products.
- These products are much more intelligent and capable than you think. 
- At the top left of the page, the name of the company is displayed while across from it, is the logo.
- Clicking on this logo will make a "presale interest form" appear.
- Inside this form you will input your personal information and click on the item of interest. 
- At the center of the page, spaced apart from one another are the company's "hooks" to persuade you into purchasing the item. 
+
+## What
+ **RepliCat** is a landing page for the fictional company called ***The Siber Corporation***. The purpose of it is to inform the viewer of the company's products and to give the viewer a chance to join their mailing list. 
+
+## Why
+ This was made to demonstrate my capabilities of *HTML* and *CSS* by making a realistic buisness structured site with a fun movie theme.
  
-Video demonstration link
-https://youtu.be/0cuEVOmvwCw
+## How
+ The languages used to make this landing page were *HTML* and *CSS*. No *Bootstrap* was involved. All images used were made and editted using *GIMP* and *Inkscape*. Font used was downloaded from https://www.dafont.com/blade-runner-movie-font.font. 
+ 
+## Page Description
+ At the top left of the page you will find the company's name with a line of it's history underneath it. The center of the page highlights three features of the products with illustrations to correspond with them. At the top right of the page sits the company's clickable logo. Clicking the logo makes a form appear that ***would*** add the viewer to the company's mailing list and let them know which product variation you are interested in (*This is just a form and not a working feature*).   
+ 
+## Video Demonstration
+ https://youtu.be/0cuEVOmvwCw
+
+## Sources
+ Font: https://www.dafont.com/blade-runner-movie-font.font
+ 
+ Gimp: https://www.gimp.org/
+ 
+ Inkscape: https://inkscape.org/
