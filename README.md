@@ -23,8 +23,8 @@
  https://youtu.be/0cuEVOmvwCw
 
 ## Sources
- Font: https://www.dafont.com/blade-runner-movie-font.font
+ - Font: https://www.dafont.com/blade-runner-movie-font.font
  
- Gimp: https://www.gimp.org/
+ - Gimp: https://www.gimp.org/
  
- Inkscape: https://inkscape.org/
+ - Inkscape: https://inkscape.org/
